@@ -5,7 +5,7 @@ import * as S from './styles';
 function Header() {
   return (
     <S.Container>
-      <S.Brand>Header</S.Brand>
+      <S.Brand>Markedown Editor</S.Brand>
     </S.Container>
   );
 }

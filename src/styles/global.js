@@ -18,8 +18,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #141414;
-    color: #fff;
+    color: #333;
     -webkit-font-smoothing: antialiased !important;
     font-family: Arial, Helvetica, sans-serif;
   }

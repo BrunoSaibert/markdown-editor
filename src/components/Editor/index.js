@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
+
+import { useText } from '../../hooks/TextProvider';
 
 import * as S from './styles';
 
 function Editor() {
-  const [text, setText] = useState('# olá 123');
+  const { text, typed } = useText();
 
-  return (
-    <textarea onChange={e => setText(e.target.value)} value={text} autoFocus />
-  );
+  return <S.Container onChange={e => typed(e.target.value)} value={text} />;
 }
 
 export default Editor;
