@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Main = styled.main`
-  height: calc(100vh - 70px);
+  height: calc(100vh - 70px - 50px);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,7 +10,8 @@ const Main = styled.main`
   & > * {
     flex: 1;
 
-    height: calc(100vh - 70px);
+    overflow-y: auto;
+    height: inherit;
     padding: 16px;
   }
 `;
