@@ -9,9 +9,12 @@ function Result() {
   const { text } = useText();
 
   return (
-    <S.Container
-      dangerouslySetInnerHTML={{ __html: marked(text, { sanitize: true }) }}
-    />
+    <S.Container>
+      <S.Result
+        className="markdown-github"
+        dangerouslySetInnerHTML={{ __html: marked(text, { sanitize: true }) }}
+      />
+    </S.Container>
   );
 }
 

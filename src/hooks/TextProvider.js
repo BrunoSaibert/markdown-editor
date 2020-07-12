@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState, useCallback } from 'react';
 const TextContext = createContext();
 
 function TextProvider({ children }) {
-  const [text, setText] = useState('# olá 123');
+  const [text, setText] = useState(`# Olá`);
 
   const typed = useCallback(textTyped => {
     setText(textTyped);
