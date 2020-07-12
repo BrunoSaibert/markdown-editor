@@ -12,7 +12,7 @@ function Result() {
     <S.Container>
       <S.Result
         className="markdown-github"
-        dangerouslySetInnerHTML={{ __html: marked(text, { sanitize: true }) }}
+        dangerouslySetInnerHTML={{ __html: marked(text) }}
       />
     </S.Container>
   );
