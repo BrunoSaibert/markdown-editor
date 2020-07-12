@@ -6,7 +6,7 @@ function Footer() {
   return (
     <S.Container>
       <p>
-        Feito com <span>♥</span> by{' '}
+        Made with <span>♥</span> by{' '}
         <a href="https://www.github.com/BrunoSaibert" target="blank">
           Bruno Henrique Saibert
         </a>

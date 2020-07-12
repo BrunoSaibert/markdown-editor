@@ -6,4 +6,5 @@ export const Container = styled.textarea`
   background: transparent;
   border: 0;
   font-size: 16px;
+  line-height: 26px;
 `;

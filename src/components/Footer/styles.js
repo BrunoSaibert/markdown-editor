@@ -6,6 +6,7 @@ export const Container = styled.footer`
   background: #333;
   color: #fff;
   padding: 0 4%;
+  font-size: 16px;
 
   display: flex;
   align-items: center;
@@ -13,6 +14,7 @@ export const Container = styled.footer`
 
   span {
     color: red;
+    font-size: 20px;
   }
 
   a {
