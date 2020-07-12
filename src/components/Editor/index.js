@@ -6,11 +6,7 @@ function Editor() {
   const [text, setText] = useState('# olá 123');
 
   return (
-    <textarea
-      onChange={e => setText(e.target.value)}
-      value={text}
-      autofocus
-    ></textarea>
+    <textarea onChange={e => setText(e.target.value)} value={text} autoFocus />
   );
 }
 

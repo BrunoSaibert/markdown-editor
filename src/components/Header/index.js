@@ -3,7 +3,11 @@ import React from 'react';
 import * as S from './styles';
 
 function Header() {
-  return <div>Header</div>;
+  return (
+    <S.Container>
+      <S.Brand>Header</S.Brand>
+    </S.Container>
+  );
 }
 
 export default Header;
