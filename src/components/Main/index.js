@@ -12,7 +12,6 @@ const Main = styled.main`
 
     overflow-y: auto;
     height: inherit;
-    padding: 16px;
   }
 `;
 

@@ -6,7 +6,7 @@ function TextProvider(prop) {
   const [text, setText] = useState(() => {
     const textStorage = localStorage.getItem('@Markedown:textStorage');
 
-    if (textStorage.length) {
+    if (textStorage) {
       return textStorage;
     }
 

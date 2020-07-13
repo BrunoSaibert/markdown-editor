@@ -22,7 +22,7 @@ export const Container = styled.footer`
     transition: color 0.4s ease-in;
 
     &:hover {
-      color: #1b9;
+      color: #11bb99;
     }
   }
 `;
