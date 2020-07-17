@@ -35,6 +35,7 @@ O projeto tem a finalidade de desenvolver um app de editor de textos em markdown
 - [x] Limpar editor
 - [x] Copiar para área de transferência
 - [ ] Rolar simultaneamente editor e prévia
+- [ ] Dark mode
 - [ ] Upload de arquivo `.md`
 - [ ] Download do arquivo `.md`
 
